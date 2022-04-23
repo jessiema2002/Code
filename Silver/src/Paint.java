@@ -22,7 +22,13 @@ import java.util.*;
 public class Paint {
 	public static void main(String[] args) throws IOException {
 		// initialize file I/O
-		BufferedReader br = new BufferedReader(new FileReader("resource/1.in"));
+
+		BufferedReader br = new BufferedReader(new FileReader("Code/Silver/resource/1.in"));
+		
+		String dir = System.getProperty("user.dir");
+
+  		System.out.println(dir);
+		
 		//PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("paint.out")));
 
 		// read in the first line, store a and b
